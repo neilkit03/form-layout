@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms layout</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img id="logo" src="images/logo_marine.jpg" alt="marine logo" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="crewassist.html">Crew Assist</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>New Crew Application</h1>
+    <h2>Personal Information</h2>
+
+    <main>
+      <form action="#">
+        <div class="names">
+          <label for="firstname">First</label>
+          <input
+            type="text"
+            id="firstname"
+            placeholder="Enter your First Name"
+          />
+        </div>
+
+        <div class="names">
+          <label for="lastname">Last</label>
+          <input type="text" id="lastname" placeholder="Enter your Last Name" />
+        </div>
+
+        <div class="names">
+          <label for="middlename">Middle</label>
+          <input
+            type="text"
+            id="middlename"
+            placeholder="Enter your Middle Name"
+          />
+        </div>
+
+        <div class="nationality">
+          <label for="nationality">Nationality:</label>
+          <select id="nationality" name="nationality">
+            <option value="filipino">Filipino</option>
+            <option value="indian">Indian</option>
+            <option value="chinese">Chinese</option>
+            <option value="indonesian">Indonesian</option>
+          </select>
+        </div>
+        <div class="birthday">
+          <label for="birthday">Date of Birth:</label>
+          <input type="date" id="birthday"">
+        </div>
+        <div class="photo">
+          <label for="file">Upload Photo :</label>
+          <input type="file" id="file" /> <br /><br />
+        </div>
+
+        <div class="address">
+          <label for="address">Address :</label>
+          <textarea
+            id="address"
+            cols="30"
+            rows="10"
+            style="resize: none"
+          ></textarea>
+        </div>
+        <div>
+          <h3>Gender</h3>
+          <br />
+          <div class="gender-group">
+            <input type="radio" id="male" name="gender" />
+            <label for="gender">Male</label>
+          </div>
+
+          <div class="gender-group">
+            <input type="radio" id="female" name="gender" />
+            <label for="gender">Female</label>
+          </div>
+        </div>
+
+        <h3>Civil Status</h3>
+        <div class="status">
+          <div class="status">
+            <input type="checkbox" id="single" />
+            <label for="sinle">Single</label>
+          </div>
+
+          <div class="status">
+            <input type="checkbox" id="married" />
+            <label for="married">Married</label>
+          </div>
+
+          <div class="status">
+            <input type="checkbox" id="widow" />
+            <label for="widow">Widow</label>
+          </div>
+        </div>
+        <div class="final-submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

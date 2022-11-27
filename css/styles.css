@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: left;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 4rem;
+  background-color: lightskyblue;
+}
+header {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 12rem;
+}
+
+nav {
+  /* background-color: orange; */
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+}
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.names {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.nationality {
+  margin-bottom: 10px;
+}
+
+.birthday {
+  margin-bottom: 10px;
+}
+
+.photo {
+  background-color: lightblue;
+  margin-bottom: 15px;
+}
+
+.address {
+  margin-bottom: 15px;
+}
+
+.gender-group {
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.status {
+  margin-bottom: 15px;
+}
+
+.try {
+  display: flex;
+  justify-content: right;
+}
